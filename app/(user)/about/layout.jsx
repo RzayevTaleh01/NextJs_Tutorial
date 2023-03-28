@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export default function AboutLayout({children,...rest}) {
-    console.log(rest);
+export default function AboutLayout({ children }) {
   return (
     <>
-
-        <h1>AboutLayout</h1>
-       {children}
+      <h1>AboutLayout</h1>
+      {children}
     </>
-  )
+  );
 }
